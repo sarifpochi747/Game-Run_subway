@@ -190,8 +190,8 @@ public class GamePlay extends JPanel implements ActionListener{
             }
 
             //draw score
-            g.setFont(new Font("Hobo Std", Font.HANGING_BASELINE, 30));
-            g.setColor(Color.WHITE);
+            g.setFont(new Font("Hobo Std", Font.BOLD, 30));
+            g.setColor(Color.BLUE);
             g.drawString("Score: "+score, 10, this.getHeight()-10);
 
 
