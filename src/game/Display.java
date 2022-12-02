@@ -11,10 +11,10 @@ package game;
 
 import javax.swing.*;
 import java.awt.event.*;
-public class Display extends JFrame implements ActionListener{
+class Display extends JFrame implements ActionListener{
     
-    public GameStart gameStart = new GameStart();
-    public GamePlay gamePlay = new GamePlay();
+    GameStart gameStart = new GameStart();
+    GamePlay gamePlay = new GamePlay();
     Display()
     {
         add(gameStart);

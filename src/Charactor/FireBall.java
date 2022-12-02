@@ -26,7 +26,7 @@ public class FireBall {
         yStart = y;
         for(int i=0;i<fireBallimg.length;i++)
         {
-            fireBallimg[i] = new ImageIcon(this.getClass().getResource("../img/fireBall/"+"b"+(i+1)+".png"));
+            fireBallimg[i] = new ImageIcon(this.getClass().getResource("../img/fireball/b"+(i+1)+".png"));
         }
         th_move = new Thread(new Runnable(){
             @Override

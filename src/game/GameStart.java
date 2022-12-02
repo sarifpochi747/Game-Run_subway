@@ -10,6 +10,8 @@ package game;
  */
 import java.awt.Graphics;
 import javax.swing.*;
+import Charactor.*;
+
 public class GameStart extends JPanel {
     public ImageIcon imgHome = new ImageIcon(this.getClass().getResource("../img/bgstart.jpg"));
     public ImageIcon imgbtnStart = new ImageIcon(this.getClass().getResource("../img/btnStart.png"));
